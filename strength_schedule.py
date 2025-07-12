@@ -1,12 +1,11 @@
+# Not for version 1.0.0...will be for version 1.1.0
+
 # *** Import required libraries
 
 import os
 import pandas as pd
 import re
-import math
-import numpy as np
-import sklearn
-from functions import get_roles, get_favorite, favorite_covered, make_match_key, test_match_key
+
 
 project_path = os.getcwd()
 data_path_strength_sched = os.path.join(
@@ -48,10 +47,12 @@ for i in strength_schedule['Team']:
     strength.append(i)
 strength_schedule['Team'] = pd.Series(strength)
 strength_schedule.drop(['Hi', 'Lo', 'Last'], axis=1, inplace=True)
-strength_schedule.rename(columns={'Date': 'full_date', 'Team': 'team', 'Rating': 'rating', 'Season': 'season'}, inplace=True)
+strength_schedule.rename(columns={'Date': 'full_date', 'Team': 'team',
+                                  'Rating': 'rating', 'Season': 'season'},
+                         inplace=True)
 
-# *** Extract wins and losses for each category of strength of schedule and put them
-# in their own columns
+# *** Extract wins and losses for each category of strength of schedule
+#  and put them in their own columns
 v_1_10_wins = []
 v_1_10_losses = []
 v_11_25_wins = []
@@ -89,7 +90,7 @@ for _, row in strength_schedule.iterrows():
     v_26_40_loss = int(scores_26_40[1])
     v_26_40_wins.append(v_26_40_win)
     v_26_40_losses.append(v_26_40_loss)
-    
+
 
 strength_schedule['v_1_10_wins'] = pd.Series(v_1_10_wins)
 strength_schedule['v_1_10_losses'] = pd.Series(v_1_10_losses)

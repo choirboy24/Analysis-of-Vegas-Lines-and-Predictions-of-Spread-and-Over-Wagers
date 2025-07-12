@@ -2,6 +2,27 @@ import numpy as np
 import pandas as pd
 
 
+# *** Delete contests where one or the other (or both) teams
+# have invalid data in them
+def mark_bad_pair(df):
+    drop_rows = []
+    bad_close_vals = ['', 'pk', 'PK', 'nl', 'NL']
+    for i in range(0, len(df) - 1, 2):  # step by 2 to process game pairs
+        c1 = str(df.loc[i, 'Close']).strip().lower()
+        c2 = str(df.loc[i + 1, 'Close']).strip().lower()
+
+        # If either row has an invalid Close value
+        if (
+            c1 in bad_close_vals
+            or c2 in bad_close_vals
+            or pd.isna(df.loc[i, 'Close'])
+            or pd.isna(df.loc[i + 1, 'Close'])
+        ):
+            drop_rows.extend([i, i + 1])
+
+    return df.drop(index=drop_rows).reset_index(drop=True)
+
+
 # Determine whether the home or away team is the favorite bassed on the spread
 def get_roles(row):
     if row['spread'] < 0:
@@ -15,7 +36,6 @@ def get_roles(row):
 # *** Function definition to determine if the home or away team
 # is the betting favorite
 def get_favorite(row):
-
     if row['spread'] < 0:
         return row['home']
     elif row['spread'] > 0:
@@ -80,4 +100,3 @@ def test_match_key(row):
     except Exception as e:
         print(f"Error on row:\n{row}\nException: {e}")
         return True
-
