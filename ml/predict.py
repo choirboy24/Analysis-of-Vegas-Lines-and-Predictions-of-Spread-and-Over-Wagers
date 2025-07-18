@@ -167,4 +167,4 @@ def go(pipeline_spread, pipeline_ou, pipeline_w, merged_df):
 
 
 if __name__ == "__main__":
-    go()
+    go(pipeline_spread, pipeline_ou, pipeline_w, merged_df)

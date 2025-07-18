@@ -8,7 +8,7 @@ from functions import (get_roles,
                        favorite_covered,
                        make_match_key
                        )
-from eda import stats_23_24, hist_odds, box_scores, stad_capacity
+from eda import go, stats_23_24, hist_odds, box_scores, stad_capacity
 
 
 def go(stats_23_24, hist_odds, box_scores, stad_capacity):
@@ -553,7 +553,9 @@ def go(stats_23_24, hist_odds, box_scores, stad_capacity):
 
     merged_df.dropna(inplace=True)
 
-    merged_df.drop(['full_date_y', 'index_y', 'index_x', 'match_key_y', 'away_y', 'home_y', 'match_key', 'away_score', 'home_score'], inplace=True, axis=1, errors='ignore')
+    merged_df.drop(['full_date_y', 'index_y', 'index_x', 'match_key_y',
+                    'away_y', 'home_y', 'match_key', 'away_score',
+                    'home_score'], inplace=True, axis=1, errors='ignore')
 
     merged_df.rename(columns={'match_key_x': 'match_key', 'full_date_x': 'full_date', 'home_x': 'home', 'away_x': 'away'}, inplace=True)
 
