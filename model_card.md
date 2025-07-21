@@ -18,9 +18,9 @@ The model is used to be able to predict the likelihood either the favorite or th
 
 ## Metrics
 
-Spread: Accuracy:   | F1: 
-Over/Under: Accuracy  | F1:
-Underdog Wins: Accuracy  | F1: 
+Spread: Accuracy: 0.6940  | F1: 0.6273
+Over/Under: Accuracy: 0.7061  | F1: 0.5512
+Underdog Wins: Accuracy: 0.7695 | F1: 0.7156
 
 ## Ethical Considerations
 

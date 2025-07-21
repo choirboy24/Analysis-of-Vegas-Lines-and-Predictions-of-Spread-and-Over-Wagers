@@ -1,0 +1,64 @@
+Stadium size, ticket allotments, and home field advantage in college football
+Steven B. Caudill, Franklin G. Mixon Jr.
+Department of Economics, Auburn University, Auburn, AL, USA
+Department of Economics, University of Southern Mississippi, Hattiesburg, MS, USA
+
+Abstract
+This study builds on a conceptual framework that explores of the relationship between relative fan
+attendance, stadium size, and home field advantage in college football. We extend the conceptual model by
+providing empirical estimates of the impact that various ticket allotment arrangements and home stadium
+size have on the probability of winning in college football. The Auburn–Alabama rivalry (the “Iron Bowl”)
+provides a unique case given that the series has been played both at a neutral site with an equal division of
+tickets, as well as on a home-and-home basis with an uneven ticket split and nonuniform stadium capacities.
+Introduction
+The academic literature investigating the importance of a college football program's success has grown
+considerably over the past 25 years. Caudill and Mixon (1996) point out that the benefits to a university's
+athletic department from college football success include greater gate receipts and the successful recruiting of
+“blue chip” high school football players that ensures the winning continues. Langelett (2003) provides
+empirical support for the latter of these two benefits. With regard to academic benefits, recent research has
+been mixed. Tucker (2004) confirms the earlier view (Brooker & Klastorin, 1981; McCormick & Tinsley, 1990)
+that college football success increases a university's alumni giving rate and its overall graduation rate. Other
+work indicates that college football success also has a positive impact on an institution's freshman retention
+rate (Mixon & Treviño, 2005) and, through an advertising effect, the Scholastic Aptitude Test (SAT) scores of
+incoming freshmen (Mixon, Treviño, & Minto, 2004; Tucker, 2005). However, Tucker and Amato (2006) offer
+contradictory results for basketball success and SAT scores, while Frank (2004) presents a survey of
+contradictory evidence for other links between athletic success and academic success.
+The Caudill and Mixon (1996) study examines the relationship between ticket allotment rules and the
+probability of winning in college football. That study provides a conceptual framework, built around the
+annual Alabama–Auburn football rivalry (i.e., the “Iron Bowl”), that employs statistical and graphical
+explorations of the relationship between relative fan attendance and the probability of winning. This study
+employs and extends that conceptual model by providing empirical estimates of the impact that various ticket
+allotment arrangements have, through the home field advantage, on the probability of winning in college
+football. As such, the results presented in this study have implications about the impact of fan-specific factors
+on home field advantage and the probability of winning. For example, fans who attend athletics events not
+only get to enjoy consumption benefits that come from watching; they also get to assist their team by
+exhorting them on and, in some sports, making it difficult for opposing teams to communicate on the playing
+field and influencing the decisions of those individuals who are officiating (Boyko et al., 2007). In this way, fan
+participation increases the home team's probability of winning, which in turn increases the consumption
+benefits accruing to the fans themselves. Given these implications, a team interested in maximizing the
+probability of winning would want to make the cost of home (visiting) fan attendance low (high). In some
+sports, where venue capacity is not a problem (e.g., women's college basketball), this is accomplished by
+giving tickets (i.e., $0 admission) to home fans. Where venue capacity is more of a constraint (e.g., college
+football), this is generally accomplished through stadium expansion(s). These considerations make the
+Auburn–Alabama rivalry an interesting case study given that the series has been played both at neutral sites
+with an equal division of tickets, as well as on a home-and-home basis with an uneven ticket split and
+nonuniform stadium capacities.
+
+Historical background: a brief review
+The Alabama–Auburn series is one of college football's most heated rivalries, dating back to 1893. After the
+renewal of the series in 1948, following a hiatus from 1908 to 1947, the game was played at a “neutral site” –
+Birmingham's Legion Field – and tickets to the game there were historically split equally between the two
+opposing institutions (Caudill & Mixon, 1996). …
+New statistical analysis
+Viewed in a production framework, the probability of winning depends on relative talent levels, relative
+injuries, relative coaching ability, and relative fan attendance, among other factors. Caudill and Mixon's (1996)
+conceptual framework assumes that everything but fan attendance is equal for both teams in order to focus
+on the statistical effects of moving the Iron Bowl series to a home-and-home arrangement. In doing so, they
+express the probability of an Alabama victory (in a given game in …
+
+Extending the analysis for future research
+Table 4 presents stadium information for all 12 teams in the Southeastern Conference (SEC). Given the SEC's
+ticket allotment agreement of 9500 tickets for visiting teams, each team's home field advantage (HFA) is given
+by HFA = [ln(SC - 9500)/9500)] * 0.0981 where SC is equal to the stadium capacity for each team. As indicated
+above, teams with larger stadium capacities will have disproportionate home field advantages in conference
+games.
